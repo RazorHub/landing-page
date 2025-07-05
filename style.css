@@ -98,3 +98,47 @@ body {
   margin-top: 60px;
   font-size: 14px;
 }
+
+.testimonials {
+  background-color: #fdf6e3;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: white;
+  border-radius: 10px;
+  padding: 24px;
+  max-width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 16px;
+  color: #444;
+}
+
+.testimonial h4 {
+  font-weight: bold;
+  color: #555;
+}
+
+.testimonials {
+  background-color: orange !important;
+  padding: 100px;
+  border: 5px dashed black;
+}
